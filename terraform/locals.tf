@@ -1,0 +1,4 @@
+# Abbreviation for location
+locals {
+    
+}
