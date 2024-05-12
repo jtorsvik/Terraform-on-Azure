@@ -12,3 +12,9 @@ resource "azurerm_storage_account" "firstsa" {
   account_kind             = "BlockBlobStorage"
   is_hns_enabled           = true
 }
+
+module "naming" {
+  source  = "Azure/naming/azurerm"
+  prefix  = [var.project, "temp"]
+  suffix  = [var.location]
+}

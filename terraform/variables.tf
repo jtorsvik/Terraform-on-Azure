@@ -15,7 +15,12 @@ variable "client_secret" {
 
 # Naming variables
 
+variable "project" {
+    type    = string
+    default = "jmt"
+}
+
 variable "location" {
-    type = string
+    type    = string
     default = "Norway East"
 }
