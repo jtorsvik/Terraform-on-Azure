@@ -14,3 +14,8 @@ variable "client_secret" {
 }
 
 # Naming variables
+
+variable "location" {
+    type = string
+    default = "Norway East"
+}
