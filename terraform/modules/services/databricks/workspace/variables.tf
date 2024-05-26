@@ -1,0 +1,1 @@
+# Variables for the Databricks workspaces
